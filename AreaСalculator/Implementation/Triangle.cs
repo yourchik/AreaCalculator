@@ -18,10 +18,6 @@ public class Triangle : IShape
         _c = c;
     }
     
-    /// <summary>
-    /// Вычисление площади треугольника по трем сторонам.
-    /// </summary>
-    /// <returns>Площадь треугольника.</returns>
     public double GetArea()
     {
         var p = (_a + _b + _c) / 2;

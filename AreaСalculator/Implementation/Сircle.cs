@@ -13,12 +13,7 @@ public class Сircle : IShape
         
         _radius = radius;   
     }
-
-    /// <summary>
-    /// Вычисление площади круга по радиусу.
-    /// </summary>
-    /// <returns></returns>
-    /// <returns>Площадь круга.</returns>
+    
     public double GetArea() => Math.PI * Math.Pow(_radius, 2);
     
 }
